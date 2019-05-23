@@ -1,10 +1,10 @@
 #!/usr/bin/python
 #-*- coding:utf8 -*-
 #BY:  H.c
-# print ('HELLO !')
-# print ('test to webhook!')
-# print ('test to webhook!')
-# print ('test 7')
+print ('HELLO !')
+print ('test to webhook!')
+print ('test tag and requests messages')
 import requests  # 发送请求，然后获取相应内容
-r = requests.get('https://api.github.com/repos/Codertocat/Hello-World/tags').json()
+url= 'https://api.github.com/repos/huidou74/huidou/tags'
+r = requests.get(url).json()
 print (r,type(r))  # list
