@@ -11,3 +11,6 @@ import requests  # 发送请求，然后获取相应内容
 url= 'https://api.github.com/repos/huidou74/huidou/tags'
 r = requests.get(url).json()
 print (r,type(r))  # list
+print ('webhook test OK! ')
+print ('webhook test OK! ')
+print ('webhook test OK! ')
