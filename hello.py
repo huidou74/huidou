@@ -12,5 +12,4 @@ url= 'https://api.github.com/repos/huidou74/huidou/tags'
 r = requests.get(url).json()
 print (r,type(r))  # list
 print ('webhook test OK! ')
-print ('webhook test OK! ')
-print ('webhook test OK! ')
+print ('V 0.6.1')
