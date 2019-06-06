@@ -11,7 +11,9 @@ r = requests.get(url).json()
 print (r,type(r))  # list
 print ('webhook test OK! ')
 print ('django connet to mysql ok! ')
-print ('python script error')
+print ('第二次测试 数据解析 ')
+print ('OK webhook data to DB')
 
-print ('test error')
-print ('save BUG')
+print ('eval(str(data)) 阿西吧 少个括号 MMP')
+
+print("NameError: name 'true' is not defined,  唉 所以 那里还是需要转换成字符串")
