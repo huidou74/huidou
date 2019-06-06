@@ -11,5 +11,5 @@ r = requests.get(url).json()
 print (r,type(r))  # list
 print ('webhook test OK! ')
 print ('django connet to mysql OK')
-print ('django connet to mysql OK')
-a='v0.6.5'
+
+
