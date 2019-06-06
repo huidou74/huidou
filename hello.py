@@ -14,3 +14,4 @@ print ('django connet to mysql ok! ')
 print ('python script error')
 
 print ('test error')
+print ('save BUG')
