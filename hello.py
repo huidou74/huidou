@@ -18,8 +18,6 @@ print ('eval(str(data)) 阿西吧 少个括号 MMP')
 
 print("NameError: name 'true' is not defined,  唉 所以 那里还是需要转换成字符串")
 
-print('0610 -  测试 webhook 的验证功能')
-print('0610 -  测试 webhook 的验证功能')
 print('0610 -  测试 webhook 的验证功能 3 ')
 print('0610 -  测试 webhook 的验证功能 4 hmac ')
 print('0610 -  测试 webhook 的验证功能 5 hmac ')
