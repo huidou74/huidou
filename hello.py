@@ -48,5 +48,5 @@ b = request.META.get('HTTP_X_HUB_SIGNATURE').replace('sha1=', '')
 a = hmac.new(APP_KEY, request.body, hashlib.sha1).hexdigest()
 
 # 使用compare_digest方法 来判定 两个值是否相等，这个函数防攻击用的
-if hmac.compare_digest(a, b):
+hmac.compare_digest(a, b) ->  返回 true 或者 false
 ''')
