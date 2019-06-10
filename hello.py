@@ -28,3 +28,4 @@ print('0610 -  测试 webhook 的验证功能 8 string argument without an encod
 print('0610 -  测试 webhook 的验证功能 9  hashlib.sha1 ')
 print('0610 -  测试 webhook 的验证功能 10  request.POST.get(\'payload\') ')
 print('0610 -  测试 webhook 的验证功能 11 hashlib.sha1')
+print('0610 -  测试 webhook 的验证功能 12 hashlib.sha1 ')
