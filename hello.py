@@ -37,4 +37,16 @@ print('0610 -  测试 webhook 的验证功能 17 pickle.dumps(request.POST.get(\
 print('0610 -  测试 webhook 的验证功能 18 request.body ')
 print('0610 -  测试 webhook 的验证功能 19 APP_KEY ')
 print('0610 -  测试 webhook 的验证功能 20 request object all to test')
-print('0610 -  测试 webhook 的验证功能 21 payload = request.body')
+print('0610 -  测试 webhook 的验证功能 21 payload = request.body')   # is Ture !  nice
+
+print ('''
+0610 -  测试 webhook 的验证功能 第 21 次 成功
+#  获取 webhook POST的加密HMAC
+b = request.META.get('HTTP_X_HUB_SIGNATURE').replace('sha1=', '')
+
+# 使用自己的秘钥和 request.body(这已经是二进制了不用再转换)，使用hashlib.sha1 去加密生成新的HMAC 码
+a = hmac.new(APP_KEY, request.body, hashlib.sha1).hexdigest()
+
+# 使用compare_digest方法 来判定 两个值是否相等，这个函数防攻击用的
+if hmac.compare_digest(a, b):
+''')
