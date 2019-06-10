@@ -37,3 +37,4 @@ print('0610 -  测试 webhook 的验证功能 17 pickle.dumps(request.POST.get(\
 print('0610 -  测试 webhook 的验证功能 18 request.body ')
 print('0610 -  测试 webhook 的验证功能 19 APP_KEY ')
 print('0610 -  测试 webhook 的验证功能 20 request object all to test')
+print('0610 -  测试 webhook 的验证功能 21 payload = request.body')
