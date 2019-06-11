@@ -38,6 +38,7 @@ print('0610 -  测试 webhook 的验证功能 18 request.body ')
 print('0610 -  测试 webhook 的验证功能 19 APP_KEY ')
 print('0610 -  测试 webhook 的验证功能 20 request object all to test')
 print('0610 -  测试 webhook 的验证功能 21 payload = request.body')   # is Ture !  nice
+print('0611 -  测试 webhook 的验证功能 成功的 第二次通信测试')   # is Ture !  nice
 
 print ('''
 0610 -  测试 webhook 的验证功能 第 21 次 成功
