@@ -3,11 +3,14 @@
 #BY:  H.c
 
 
-import re
-t='2019-06-11T18:27:42+08:00'
-a= t[2:-1].split('+')[0].replace('T','-').replace('-','{}').format('年','月','日  ')
 
-print (a)
+print("{} {}".format("hello", "world"))
+
+# import re
+# t='2019-06-11T18:27:42+08:00'
+# a= t[2:-1].split('+')[0].replace('T','-').replace('-','{}').format('年','月','日  ')
+#
+# print (a)
 
 
 # import hmac
